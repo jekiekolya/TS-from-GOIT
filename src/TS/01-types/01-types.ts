@@ -1,6 +1,7 @@
 // ------------------------------- 01 EX -------------------------------
-export let age: number = 50;
-let name: string = "Max";
+
+let age: number = 50;
+let name1: string = "Max";
 let toggle: boolean = true;
 let empty: null = null;
 let notInitialize: undefined = undefined;
@@ -92,3 +93,5 @@ const page2: Page = {
   accounts: ["Alex"],
   status: "close",
 };
+
+console.log(page2);
